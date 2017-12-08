@@ -53,6 +53,12 @@ html body{
 	background:#CCCCCC;
 	margin:0.2rem;
 }
+.name{
+	height:20rem;
+	width:100%;
+	background:#CCCCCC;
+	margin:0.2rem;
+}
 </style>
 
 </head>
@@ -61,16 +67,18 @@ html body{
  <div class="header" id="header">会话问诊</div>
  <div class="body" id="body">
  <div class="content"></div>
+ <a class="name" href="name.html">手动阀手动阀手动阀</a>
  <div class="content"></div>
  <div class="content"></div>
  </div>
   <div class="footer" id="footer">
       <input type="text" class="inputframe" placeholder="请输入文字吧" onclick="sr(this);" onblur="nosr(this)">
  </div>
+ 
 </body>
-<script  type="text/javascript"  src="/assets/js/jquery.min.js"></script>
+<script  type="text/javascript" src="jquery.min.js"></script>
 
-<script>
+<!--<script>
 $('input').on('focus', function () {
     var agent = navigator.userAgent.toLowerCase();
   setTimeout(function () {
@@ -96,8 +104,6 @@ $('input').on('blur', function () {
                 }
             }, 0);
 });
-
-
 
 $('header').on('focus', function () {
     var agent = navigator.userAgent.toLowerCase();
@@ -130,5 +136,5 @@ $('header').on('blur', function () {
 $(".inputframe").focus(function(){
         document.activeElement.scrollIntoViewIfNeeded(); 
     });
-</script>
+</script> -->
 </html>

@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+</head>
+
+<body>
+<style>
+html body{
+	font-size:1.2rem;
+	margin:0;
+	padding:0;
+}
+.header{
+	margin:0;
+	padding:0;
+	width: 100%;
+    height: 6.8rem;
+	text-align:center;
+	background:#e60012;
+	color:#fff;
+	vertical-align: bottom;
+	line-height:10.5rem;
+	position: fixed; top:-2.5rem;left:0;right:0;
+}
+
+.body {
+   width: 100%;
+   overflow: auto;
+}
+
+.footer {
+    width: 100%;
+    height: 4rem;
+	position: fixed;
+	bottom:0;
+	left:0;
+	right:0;
+	text-align:center;
+	background:#e5e5e5;
+}
+.inputframe{
+	height:3rem;
+	width:90%;
+	margin-top:0.4rem;
+	color:#333;
+}
+.content{
+	height:20rem;
+	width:100%;
+	background:#CCCCCC;
+	margin:0.2rem;
+}
+.name{
+	height:20rem;
+	width:100%;
+	background:#CCCCCC;
+	margin:0.2rem;
+}
+</style>
+
+
+
+
+ <div class="header" id="header">会话问诊</div>
+ <div class="body" id="body">
+ <div class="content"></div>
+ <div class="content"></div>
+ <div class="content"></div>
+ </div>
+  <div class="footer" id="footer">
+      <input type="text" class="inputframe" placeholder="请输入文字吧" onclick="sr(this);" onblur="nosr(this)">
+ </div>
+ 
+</body>
+</html>
